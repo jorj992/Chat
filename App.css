@@ -1,0 +1,134 @@
+.App {
+  background-image: url(https://i.pinimg.com/originals/49/7e/d7/497ed7a4365b807096b6badb0d597b4f.jpg);
+  display: flex;
+  margin: 0;
+  height: 100vh;
+  max-height: 100vh;
+  max-width: 100%;
+}
+
+.contacts{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 300px;
+  min-width: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin: 12px 0 12px 12px;
+  padding-right: 12px;
+}
+
+.searchBar{
+  border-radius: 6px;
+  margin-bottom: 9px;
+  width: 280px;
+  height: 25px;
+  font-size: 1.1em;
+}
+
+.contactList{
+  display: flex;
+  flex-direction: column;
+}
+
+.individ {
+  display: flex;
+  background-color: rgba(120,179,187, .7);
+  border: 3px #78B3BB solid;
+  border-radius: 10px;
+  flex-grow: 1;
+  margin-bottom: 8px;
+  box-shadow: 6px 8px 10px #344E51;
+}
+
+.persImg {
+  display: flex;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.individName {
+  display: flex;
+  font-size: 1.3em;
+  margin-left: 9px;
+  align-self: center;
+}
+.deleteFriend {
+  border: 1px #278F9A solid;
+  color: #dbdddd;
+  background-color: #2DA5B2;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin-right: 9px;
+  border-radius: 25%;
+  font-size: 1.2em;
+}
+
+hr{
+  display: flex;
+  align-self: center;
+  height: 90%;
+  margin: 0 15px 0 15px;
+}
+
+.chat{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  margin: 12px 12px 0 0;
+}
+
+.chatArea {
+  border: 5px rgba(133,199,208, .5) solid;
+  display: flex;
+  display: inline-block;
+  flex-basis: 100%;
+  overflow-y: auto;
+  border-radius: 20px; 
+}
+
+.message{
+  display: flex;
+  background-color: #A1C7CB;
+  margin: 10px;
+  font-size: 1.2em;
+  border-radius: 6px;
+  padding: 7px;
+  width: fit-content;
+  max-width: 65%;
+}
+
+.textArea {
+  display: flex;
+  padding: 10px;
+}
+
+.textArea input {
+  flex-grow: 1;
+  border-radius: 10px;
+  height: 25px;
+  font-size: 1.1em;
+  margin-right: 5px;
+}
+
+#sendButton {
+  border-radius: 6px;
+  font-size: 1.1em;
+  background-color: #9DDDFF;
+  align-self: center;
+  flex-basis: 55px;
+  text-align: center;
+  height: 100%;
+}
